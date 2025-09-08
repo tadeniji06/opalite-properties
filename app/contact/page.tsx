@@ -1,6 +1,12 @@
+import ContactForm from "@/components/ContactForm";
+import ContactHero from "@/components/ContactHero";
+
 const page = () => {
-  return (
-    <div>Contact Us</div>
-  )
-}
-export default page
+	return (
+		<div className='min-h-screen'>
+			<ContactHero />
+			<ContactForm />
+		</div>
+	);
+};
+export default page;

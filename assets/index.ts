@@ -4,4 +4,5 @@ import dup1 from "./dup1.jpg";
 import dup2 from "./sem1.jpg";
 import dup3 from "./sup1.jpg";
 import offer from "./offer.jpg";
-export { logo, hero, dup1, dup2, dup3, offer };
+import propsHero from "./pHero.jpg";
+export { logo, hero, dup1, dup2, dup3, offer, propsHero };

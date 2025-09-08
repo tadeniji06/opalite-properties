@@ -1,6 +1,10 @@
+import PropsClient from "./PropsClient";
+
 const page = () => {
-  return (
-    <div>Properties</div>
-  )
-}
-export default page
+	return (
+		<div className='min-h-screen'>
+			<PropsClient />
+		</div>
+	);
+};
+export default page;
