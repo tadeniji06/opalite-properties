@@ -1,5 +1,4 @@
 import { logo } from "@/assets";
-import { headerLinks } from "@/utils/data";
 import Link from "next/link";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
