@@ -36,7 +36,7 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<div className='w-full sm:w-3/4 lg:w-1/2 order-1 lg:order-2'>
+				<div className='hidden md:flex w-1/2 order-1 lg:order-2'>
 					<Image
 						src={hero}
 						alt='Hero Image'
