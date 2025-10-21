@@ -1,4 +1,4 @@
-import { dup1, dup2, dup3 } from "@/assets";
+import { dup1, dup2, dup3, eme, iluaje, opal, vedu } from "@/assets";
 
 export const headerLinks = [
 	{
@@ -21,126 +21,53 @@ export const headerLinks = [
 
 export const featuredProps = [
 	{
-		title: "Duplex",
-		image: dup1,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "500M",
-		location: "Magodo phase 1, Lagos state",
+		title: "Emerald 4 Bedroom Duplex",
+		image: eme,
+		desc: `A luxurious 4-bedroom semi-detached duplex with a BQ, spacious living areas, and modern amenities.`,
+		price: "450M",
+		location: "Sir Mobolaji Bank Anthony, Maryland Lagos state",
 	},
 	{
-		title: "Super Mini Estate",
-		image: dup2,
-		desc: `Neatly used 14 unit apartment in an estate with 5x three bedroom and staff quarters`,
-		price: "580M",
+		title: "Opal 4 Bedroom Duplex",
+		image: opal,
+		desc: `A luxuriously designed 4-bedroom terrace duplex with a BQ, all bedrooms are ensuite, complemnted by 2 living rooms and a gurst toilet on the ground floor`,
+		price: "400M",
 		location: "Maryland, Lagos state",
 	},
 	{
-		title: "Semi Detached Duplex",
-		image: dup3,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "140M",
-		location: "Magodo phase 1, Lagos state",
-	},
-];
-
-export const apartmentCategory = [
-	{
-		title: "Duplex",
-		image: dup1,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "500M",
-		location: "Magodo phase 1, Lagos state",
-	},
-	{
-		title: "Super Mini Estate",
-		image: dup2,
-		desc: `Neatly used 14 unit apartment in an estate with 5x three bedroom and staff quarters`,
-		price: "580M",
-		location: "Maryland, Lagos state",
-	},
-	{
-		title: "Semi Detached Duplex",
-		image: dup3,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "140M",
-		location: "Magodo phase 1, Lagos state",
+		title: "Vedura Grove",
+		image: vedu,
+		desc: `The vedura grove is a premium development comprising 100 units of crafted 4 bedroom fully detached duplexes, thoughtfully designed to be a haven with eco-friendly features`,
+		price: "120M",
+		location: "Arepo, Lagos state",
 	},
 ];
 
 export const luxuryHomes = [
 	{
-		title: "Duplex",
-		image: dup1,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "500M",
-		location: "Magodo phase 1, Lagos state",
+		title: "Emerald 4 Bedroom Duplex",
+		image: eme,
+		desc: `A luxurious 4-bedroom semi-detached duplex with a BQ, spacious living areas, and modern amenities.`,
+		price: "450M",
+		location: "Sir Mobolaji Bank Anthony, Maryland Lagos state",
 	},
 	{
-		title: "Super Mini Estate",
-		image: dup2,
-		desc: `Neatly used 14 unit apartment in an estate with 5x three bedroom and staff quarters`,
-		price: "580M",
+		title: "Opal 4 Bedroom Duplex",
+		image: opal,
+		desc: `A luxuriously designed 4-bedroom terrace duplex with a BQ, all bedrooms are ensuite, complemnted by 2 living rooms and a gurst toilet on the ground floor`,
+		price: "400M",
 		location: "Maryland, Lagos state",
-	},
-	{
-		title: "Semi Detached Duplex",
-		image: dup3,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "140M",
-		location: "Magodo phase 1, Lagos state",
 	},
 ];
 export const commercialProperties = [
 	{
-		title: "Duplex",
-		image: dup1,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "500M",
-		location: "Magodo phase 1, Lagos state",
-	},
-	{
-		title: "Super Mini Estate",
-		image: dup2,
-		desc: `Neatly used 14 unit apartment in an estate with 5x three bedroom and staff quarters`,
-		price: "580M",
-		location: "Maryland, Lagos state",
-	},
-	{
-		title: "Semi Detached Duplex",
-		image: dup3,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "140M",
-		location: "Magodo phase 1, Lagos state",
+		title: "Ilu Aje",
+		image: iluaje,
+		desc: `Ilu Aje is a well-concieved ultre-modern plaza located within the commercial hub of ojota, a choice and viable location for business activites`,
+		price: "2.5M initial deposit",
+		location: "Ojota, Lagos state",
 	},
 ];
-
-export const housesForRent = [
-	{
-		title: "Duplex",
-		image: dup1,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "500M",
-		location: "Magodo phase 1, Lagos state",
-	},
-	{
-		title: "Super Mini Estate",
-		image: dup2,
-		desc: `Neatly used 14 unit apartment in an estate with 5x three bedroom and staff quarters`,
-		price: "580M",
-		location: "Maryland, Lagos state",
-	},
-	{
-		title: "Semi Detached Duplex",
-		image: dup3,
-		desc: `Newly built spacious 4 bedroom semi-detached duplex with 1 room BQ, ans space of 4 cars `,
-		price: "140M",
-		location: "Magodo phase 1, Lagos state",
-	},
-];
-
-
-
-
 
 export const clientTrust = [
 	{

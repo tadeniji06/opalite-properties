@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Ready = () => {
 	return (
 		<div className='bg-primary-gold p-6 sm:p-8 lg:p-10 rounded-lg max-w-7xl mx-auto mt-10 text-black shadow-lg'>
@@ -16,9 +18,11 @@ const Ready = () => {
 
 				{/* CTA Button */}
 				<div className='flex-shrink-0'>
-					<button className='bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-800 transition-colors duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5  whitespace-nowrap'>
-						Schedule Consultation
-					</button>
+					<Link href='/contact'>
+						<button className='bg-black text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-gray-800 transition-colors duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5  whitespace-nowrap'>
+							Schedule Consultation
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

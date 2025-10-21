@@ -1,9 +1,7 @@
 "use client";
 import {
-	apartmentCategory,
 	luxuryHomes,
 	commercialProperties,
-	housesForRent,
 } from "@/utils/data";
 import { useState } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
@@ -11,10 +9,10 @@ import Image from "next/image";
 
 const Categories = () => {
 	const categories = [
-		{ name: "Apartments for sale", data: apartmentCategory },
+		// { name: "Apartments for sale", data: apartmentCategory },
 		{ name: "Luxury homes", data: luxuryHomes },
 		{ name: "Commercial properties", data: commercialProperties },
-		{ name: "Houses for rent", data: housesForRent },
+		// { name: "Houses for rent", data: housesForRent },
 	];
 
 	const [activeCategory, setActiveCategory] = useState(0);
@@ -25,9 +23,9 @@ const Categories = () => {
 				<h1 className='text-xl sm:text-2xl font-bold text-gray-800'>
 					Categories
 				</h1>
-				<p className='text-primary-gold cursor-pointer hover:text-yellow-600 transition-colors duration-200 font-medium'>
+				{/* <p className='text-primary-gold cursor-pointer hover:text-yellow-600 transition-colors duration-200 font-medium'>
 					See All
-				</p>
+				</p> */}
 			</div>
 
 			{/* Category Buttons */}

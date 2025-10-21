@@ -5,4 +5,24 @@ import dup2 from "./sem1.jpg";
 import dup3 from "./sup1.jpg";
 import offer from "./offer.jpg";
 import propsHero from "./pHero.jpg";
-export { logo, hero, dup1, dup2, dup3, offer, propsHero };
+import eme from "./eme.jpg";
+import iluaje from "./iluaje.jpg";
+import opal from "./opal.jpg";
+import vedu from "./vedu.jpg";
+import vv2 from "./vv2.jpg";
+import ruby from "./ruby.jpg";
+export {
+	logo,
+	hero,
+	vv2,
+	dup1,
+	ruby,
+	dup2,
+	dup3,
+	offer,
+	propsHero,
+	eme,
+	iluaje,
+	opal,
+	vedu,
+};
