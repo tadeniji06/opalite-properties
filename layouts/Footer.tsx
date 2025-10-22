@@ -148,21 +148,6 @@ const Footer = () => {
 								Privacy Policy
 							</Link>
 						</div>
-
-						{/* Developer Credit */}
-						<div className='text-center md:text-right'>
-							<p className='text-gray-400 text-xs sm:text-sm'>
-								Developed by{" "}
-								<a
-									href='https://olutunmise.vercel.app'
-									className='text-primary-gold font-semibold hover:text-yellow-400 transition-colors duration-200'
-									target='_blank'
-									rel='noreferrer'
-								>
-									Olutunmise
-								</a>
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
